@@ -23,3 +23,6 @@ class ManejadorMedicamentos():
                 self.__Medicamentos.append(NuevoMed)
 
         archivo.close()
+
+    def Lista(self):
+        return self.__Medicamentos

@@ -18,7 +18,7 @@ class Cama():
         self.__FechaAlta = FechaA
 
     def __str__(self):
-        return ("ID:{}  Nro de Habitacion:{}    Estado:{} \nNombre y Apellido:{}    Fecha de internacion:{}\nDiagnostico:{}".format(self.__IDcama,self.__NroHabitacion,self.__Estado,self.__NyA,self.__FechaInternacion,self.__Diagnostico))
+        return ("Cama:{}  Nro de Habitacion:{}    Estado:{} \nNombre y Apellido:{}    Fecha de internacion:{}\nDiagnostico:{}".format(self.__IDcama,self.__NroHabitacion,self.__Estado,self.__NyA,self.__FechaInternacion,self.__Diagnostico))
 
     def getEstado(self):
         return self.__Estado
@@ -26,5 +26,22 @@ class Cama():
     def getDiagnostico(self):
         return self.__Diagnostico
     
+    def getNyA(self):
+        return self.__NyA
+    
+    def getID(self):
+        return self.__IDcama
+    
+    def getNroH(self):
+        return self.__NroHabitacion
+    
+    def getInternacion(self):
+        return self.__FechaInternacion
+    
+    def getAlta(self):
+        return self.__FechaAlta
+    
+    def regAlta(self,fecha):
+        self.__FechaAlta = fecha
     
         

@@ -16,6 +16,20 @@ class medicamento():
         self.__presentacion = pres
         self.__cantidadAplicada = cantApli
         self.__precioTotal = precio
+
+    def getIdCama(self):
+        return self.__idCama
     
     
+    def getMonodroga(self):
+        return self.__monodroga
+
+    def getPresentacion(self):
+        return self.__presentacion
+    
+    def getCantidadAplicada(self):
+        return self.__cantidadAplicada
+
+    def getPrecio(self):
+        return self.__precioTotal
 
